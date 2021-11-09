@@ -32,16 +32,16 @@ h1, h2, h3{text-transform: uppercase;font-weight: 300;}
 .p1-item h1{font-size: 3.5rem;font-weight: 200;text-transform: uppercase;}
 .p1-item p{margin: 1em 0;font-weight: 100;}
 
-.p2{background: url(/image/back-color.png);background-size: cover;}
+.p2{background: url(image/back-color.png);background-size: cover;}
 .p2-box{display: flex;justify-content: center;align-items: center;flex-direction: row-reverse;}
 .p2-item img{width: 40em;margin-right: 1em;} 
 .p2-item p{width: 60ch;margin: 1em 0;}
 
-.p3{background: url(/image/back9.png);background-size: cover;padding: 4em;background-position: center right;}
+.p3{background: url(image/back9.png);background-size: cover;padding: 4em;background-position: center right;}
 .p3-item{color: #fff;}
 .p3-item p {margin: 1em 0;}
 
-.p5{background: url(/image/back-color.png);background-size: cover;background-position: center;}
+.p5{background: url(image/back-color.png);background-size: cover;background-position: center;}
 .p5 img{width: 30em;margin-right: 1em;} 
 .p5 h3{font-size: 3rem;}
 .p5 p{width: 60ch;margin: 1em 0;}
@@ -64,7 +64,7 @@ footer p a{color: $color1; text-decoration: none;}
 
 @media screen and (max-width:900px){
  
-.p1{background: url(/image/back-mobile.jpg);min-height: 100vh;background-size: cover;background-position: center bottom;
+.p1{background: url(image/back-mobile.jpg);min-height: 100vh;background-size: cover;background-position: center bottom;
 align-items: flex-start;}
 
 .p1-item{width: 100%;}
